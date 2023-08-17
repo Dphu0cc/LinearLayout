@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:weightSum="10"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--2-3-4-1-->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_weight="1"
+            android:background="#ff0"
+            android:textColor="#FF0057"
+            android:textSize="30sp"
+            android:text="Android"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:fontFamily="sans-serif">
+        </TextView>
+
+        <TextView
+            android:layout_weight="1"
+            android:background="#ff0"
+            android:textColor="#FF0057"
+            android:textSize="30sp"
+            android:text="Android"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:fontFamily="sans-serif">
+        </TextView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_weight="1"
+            android:background="#0055FF"
+            android:textColor="#FF0057"
+            android:textSize="30sp"
+            android:text="city"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:fontFamily="sans-serif">
+        </TextView>
+
+        <TextView
+            android:layout_weight="1"
+            android:background="#0055FF"
+            android:textColor="#FF0057"
+            android:textSize="30sp"
+            android:text="city"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:fontFamily="sans-serif">
+        </TextView>
+
+        <TextView
+            android:layout_weight="1"
+            android:background="#0055FF"
+            android:textColor="#FF0057"
+            android:textSize="30sp"
+            android:text="city"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:fontFamily="sans-serif">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="4"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_weight="3"
+            android:background="#B3761B"
+            android:textColor="#FF0057"
+            android:textSize="30sp"
+            android:text="php"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:fontFamily="sans-serif">
+        </TextView>
+
+        <TextView
+            android:layout_weight="1"
+            android:background="#B3761B"
+            android:textColor="#FF0057"
+            android:textSize="30sp"
+            android:text="php"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:fontFamily="sans-serif">
+        </TextView>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_weight="1"
+        android:background="#0BE313"
+        android:textColor="#FF0057"
+        android:textSize="30sp"
+        android:text="node"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif">
+    </TextView>
+
+</LinearLayout>
